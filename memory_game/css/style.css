@@ -76,6 +76,34 @@ img {
 	margin: 40px 8px 0 8px;
 }
 
+.button {
+	font-size: 25px
+	margin: 10px auto;
+	padding: 30px 48px;
+	background-color: #D6D7DC; /*grey */
+	border: none;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: inline;
+	justify-content: center;
+	width: 250px;
+}
+
+/*Select all section element with a class*/
+
+[type="button"] {
+	font-size: medium;
+	display: inline-flex;
+	margin: 0px;
+	padding: 0px;
+}
+
+[type="button"]:hover {
+	color: red;
+}
+
+
 footer {
 	text-transform: uppercase;
 	padding: 0 20px;
