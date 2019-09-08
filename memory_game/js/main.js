@@ -33,8 +33,8 @@ var resetButton = document.getElementById('resetButton');
 
 //Check for match and display message
 function checkForMatch(){
-if(cardsInPlay.length === 2) {
-	if(cardsInPlay[0] === cardsInPlay[1]){
+if(cardsInPlay.length % 2 === 0) {
+	if(cardsInPlay[0] === cardsInPlay[1] || cardsInPlay[2] === cardsInPlay[3]){
 		score += 1;
 		alert("You found a match! Your score is" + " " + score);
 		scoreElement.innerHTML = "You Score: " + score;
